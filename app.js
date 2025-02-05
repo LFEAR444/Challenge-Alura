@@ -1,2 +1,2 @@
 
-let amigos = [];
+let tree = [];
