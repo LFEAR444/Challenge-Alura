@@ -19,4 +19,5 @@ cuando completes los nombres haz click en "sortear amigo" y te mostrara un nombr
 - Link: https://lfear444.github.io/Challenge-Alura/
 
 
-![Captura de pantalla 2025-02-07 010026](https://github.com/user-attachments/assets/95e45ee1-40b1-4eca-8d74-0a705bf8837a)
+![Captura de pantalla 2025-02-07 171737](https://github.com/user-attachments/assets/e95539c6-01f9-4a31-be28-092937aa4f8e)
+<p>creado para alura latam como proyecto de aprendisaje</p>
