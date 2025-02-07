@@ -28,27 +28,7 @@ function actualizarLista() {
 
 //Implementa una función para sortear los amigos
 function sortearAmigo() {
-    if (amigos.length === 0) {
-        alert("No hay amigos en la lista para sortear.");
-        return;
-    }
     let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
     document.getElementById("resultado").textContent = "El nombre sorteado es: " + amigoSorteado;
 }
 
-//elimina el amigo sorteado
-    amigos = amigos.filter(amigo => amigo !== amigoSorteado);
-    actualizarLista();
-
-    if (amigos.length === 0) {
-        alert("se han sorteado todos los amigos.");
-        reiniciarJuego();
-
-}
-
-//Implementa una función para reiniciar el juego
-function reiniciarJuego(){
-    amigos = [];
-    actualizarLista();
-    document.getElementById("resultado").textContent = "";
-}
