@@ -1,9 +1,9 @@
 <h1>Challenge del amigo secreto</h1>
 
 - Ingresa los nombres de los participantes y preciona "agregar", 
-cuando completes los nombres haz click en "sortear amigo" y te notificara del nombre sorteado.
+cuando completes los nombres haz click en "sortear amigo" y te mostrara un nombre aleatorio.
 
-- Al finalizar si quieres agregar nuevos nombres, recarga la pagina y volvera a iniciar.
+- si finalizaste o te equivocaste de nombres, preciona reiniciar para recargar la pagina y que el juego inicie de nuevo.
 
 <br></br>
 

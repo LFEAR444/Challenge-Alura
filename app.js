@@ -1,5 +1,6 @@
 //Crear un array para almacenar los nombres
 let amigos =[];
+let amigoSorteado = 0;
 
 //Implementa una función para agregar amigos
 function agregarAmigo(){
@@ -28,7 +29,21 @@ function actualizarLista() {
 
 //Implementa una función para sortear los amigos
 function sortearAmigo() {
-    let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
-    document.getElementById("resultado").textContent = "El nombre sorteado es: " + amigoSorteado;
+    if(amigos.length === 0){
+        alert("No agregaste amigos para sortear");
+        return; 
+    } else {
+        amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
+        document.getElementById("resultado").textContent = "El nombre sorteado es: " + amigoSorteado;
+    }
+}
+//reiniciar juego
+
+function recargarPagina() {
+    document.getElementById("reiniciarJuego").addEventListener("click", function() {
+        location.reload();
+    });
 }
 
+
+recargarPagina();
