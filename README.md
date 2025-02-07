@@ -17,3 +17,6 @@ cuando completes los nombres haz click en "sortear amigo" y te notificara del no
 
 <br></br>
 - Link: https://lfear444.github.io/Challenge-Alura/
+
+
+![Captura de pantalla 2025-02-07 010026](https://github.com/user-attachments/assets/95e45ee1-40b1-4eca-8d74-0a705bf8837a)
