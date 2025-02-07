@@ -11,6 +11,11 @@ function agregarAmigo(){
         console.log(amigos);
         document.getElementById("amigo").value = "";
     }
-    
 }
 
+//Implementa una función para actualizar la lista de amigos
+function actualizarLista() {
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = "";
+
+}
