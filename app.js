@@ -37,6 +37,7 @@ function sortearAmigo() {
         document.getElementById("resultado").textContent = "El nombre sorteado es: " + amigoSorteado;
     }
 }
+
 //reiniciar juego
 
 function recargarPagina() {
