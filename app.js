@@ -39,3 +39,16 @@ function sortearAmigo() {
 //elimina el amigo sorteado
     amigos = amigos.filter(amigo => amigo !== amigoSorteado);
     actualizarLista();
+
+    if (amigos.length === 0) {
+        alert("se han sorteado todos los amigos.");
+        reiniciarJuego();
+
+}
+
+//Implementa una función para reiniciar el juego
+function reiniciarJuego(){
+    amigos = [];
+    actualizarLista();
+    document.getElementById("resultado").textContent = "";
+}
