@@ -39,7 +39,6 @@ function sortearAmigo() {
 }
 
 //reiniciar juego
-
 function recargarPagina() {
     document.getElementById("reiniciarJuego").addEventListener("click", function() {
         location.reload();
